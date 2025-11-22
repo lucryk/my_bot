@@ -100,9 +100,9 @@ pip install pytelegrambotapi openai
 
 python
 
-bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
+bot = telebot.TeleBot('bot_token')
 
-client = OpenAI(api_key='YOUR_OPENAI_API_KEY')
+client = OpenAI(api_key='open_aitoken')
 
 Запустите бота:
 
